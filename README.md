@@ -18,11 +18,16 @@ You will also see any lint errors in the console.
 **Step1:** Select the cells in the grid and click on **Next generation** button. It will create the next generation based on the below criteria
 
 o A Cell with fewer than two live neighbours dies of under-population.
+
 o A Cell with 2 or 3 live neighbours lives on to the next generation.
+
 o A Cell with more than 3 live neighbours dies of overcrowding.
-o An empty Cell with exactly 3 live neighbours &quot;comes to life&quot;.
+
+o An empty Cell with exactly 3 live neighbours comes to life
+
 o A Cell who &quot;comes to life&quot; outside the board should wrap at the other side of the
 board.
+
 
  Once the next generation is done, User can trigger &quot;next generation&quot; again.
 
@@ -46,5 +51,8 @@ board.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
+
+![image](https://user-images.githubusercontent.com/11869506/131241042-b0ba12e9-9957-4004-883f-708cb30df3e2.png)
+
 
 
