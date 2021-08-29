@@ -1,18 +1,18 @@
 import React from "react";
 import {render, screen} from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import {GameOfLife} from "./GameOfLife";
+import {CellSimulator} from "./CellSimulator";
 
-describe("Game of life component testing", () => {
+describe("Cell simulator component testing", () => {
   it("should render component", () => {
-    render(<GameOfLife />);
-    screen.getByText("Game of life");
+    render(<CellSimulator />);
+    screen.getByText("Cell simulator");
     screen.getByText("Next generation");
     screen.getByText("Reset");
   });
 
   it("check the next generation after selecting cells", async () => {
-    render(<GameOfLife />);
+    render(<CellSimulator />);
     const cells = await screen.findAllByLabelText("cell");
     userEvent.click(cells[0]);
     userEvent.click(cells[1]);

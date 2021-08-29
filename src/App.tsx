@@ -1,8 +1,8 @@
 import React from "react";
-import {GameOfLife} from "./Components/GameOfLife";
+import {CellSimulator} from "./Components/CellSimulator";
 
 function App() {
-  return <GameOfLife />;
+  return <CellSimulator />;
 }
 
 export default App;

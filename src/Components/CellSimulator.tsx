@@ -1,5 +1,5 @@
 import {FC, useState, useCallback} from "react";
-import styles from "./GameOfLife.module.css";
+import styles from "./CellSimulator.module.css";
 
 const generateInitialCells = (): number[][] => {
   // generate a the initial state with no cells selected
@@ -21,7 +21,7 @@ const movements = [
   [-1, 0], // bottom left
 ];
 
-export const GameOfLife: FC = () => {
+export const CellSimulator: FC = () => {
   const [cell, setCell] = useState(() => {
     return generateInitialCells(); // On first render none of the cells are selected
   });
@@ -54,7 +54,7 @@ export const GameOfLife: FC = () => {
   }, [cell]);
   return (
     <div>
-      <h1 className={styles.heading}>Game of life</h1>
+      <h1 className={styles.heading}>Cell simulator</h1>
       <div className={styles.gridStructure}>
         {cell.map((rows, a) =>
           rows.map((col, b) => (
