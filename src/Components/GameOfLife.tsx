@@ -54,11 +54,12 @@ export const GameOfLife: FC = () => {
   }, [cell]);
   return (
     <div>
-      <h1 className={styles.heading}>Game of Life</h1>
+      <h1 className={styles.heading}>Game of life</h1>
       <div className={styles.gridStructure}>
         {cell.map((rows, a) =>
           rows.map((col, b) => (
             <div
+              aria-label="cell"
               key={`${a}-${b}`}
               onClick={() => {
                 // make the cell on click
