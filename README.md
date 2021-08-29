@@ -1,4 +1,4 @@
-# Game of life project
+# Cell simulator project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -32,27 +32,27 @@ board.
  Once the next generation is done, User can trigger &quot;next generation&quot; again.
 
 
-![image](https://user-images.githubusercontent.com/11869506/131240892-864b518d-2a2e-47dd-8f4d-6a717f26c9f4.png)
+![image](https://user-images.githubusercontent.com/11869506/131241396-db0f952b-bd59-4395-95d9-1380b6263ce2.png)
 
 
 
 **Step2:** Click the **Next generation** button again to move to the next run the condition on the current grid(selected cells)
 
-![image](https://user-images.githubusercontent.com/11869506/131240905-ad35cc1c-6426-4b18-8658-fc5a05ab5ec7.png)
-![image](https://user-images.githubusercontent.com/11869506/131240914-14fc703c-bdef-4e30-9e87-c8c0d33fa950.png)
+![image](https://user-images.githubusercontent.com/11869506/131241411-e91b68f7-0adf-4037-a724-591ba8464115.png)
+![image](https://user-images.githubusercontent.com/11869506/131241418-b8b65066-10fe-43ca-873a-786421794a83.png)
 
 
 
 **Step3:** click on **Reset** button to reset the grid(the cells selected)
 
-![image](https://user-images.githubusercontent.com/11869506/131240853-836d4fa1-5954-4316-995b-606fa69b0f8f.png)
+![image](https://user-images.githubusercontent.com/11869506/131241431-d6ca91ea-f2c6-4f21-8788-1de1d56dc7e3.png)
 
 
-### `npm test`
+### `npm test CellSimulator.test`
 
 Launches the test runner in the interactive watch mode.\
 
-![image](https://user-images.githubusercontent.com/11869506/131241042-b0ba12e9-9957-4004-883f-708cb30df3e2.png)
+![image](https://user-images.githubusercontent.com/11869506/131241472-0e304af8-1fe8-4f0e-bef6-41c0ecbf97ec.png)
 
 
 
