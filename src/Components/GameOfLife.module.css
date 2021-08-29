@@ -1,0 +1,10 @@
+.heading {
+  text-align: center;
+}
+
+.gridStructure {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  width: fit-content;
+  margin: 0 auto;
+}
